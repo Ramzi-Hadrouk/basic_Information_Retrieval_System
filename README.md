@@ -47,16 +47,9 @@ The `PhraseSearch()` class handles complex queries by considering the positions 
 #### TF-IDF Calculation
 The `TFIDF()` class calculates the TF-IDF (Term Frequency-Inverse Document Frequency) scores for terms in the corpus. This scoring system evaluates a term's importance in a document relative to its frequency in the entire corpus. TF-IDF scores aid in ranking and retrieving documents based on relevance to user queries.
 
-### System Commentary and Lessons Learned
-
-Implementing this system provided insights into various aspects of text processing, indexing, and search algorithms. However, several challenges emerged:
-
-#### Challenges Faced
-- **Performance Optimization:** Scaling efficiency for search operations with increased dataset sizes.
-- **Memory Management:** Ensuring efficient memory usage while handling large indexes.
 
 #### Improvement and Scaling Ideas
-To enhance performance and scalability:
+To enhance performance and scalability we can use :
 - **Parallel Processing:** Utilize parallel processing for faster retrieval, especially with large datasets.
 - **Cloud Computing Resources:** Utilize scalable storage solutions offered by cloud platforms (e.g., AWS, Google Cloud, Azure) for efficient data retrieval.
 
